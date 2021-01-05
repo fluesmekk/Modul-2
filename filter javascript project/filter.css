@@ -1,0 +1,62 @@
+.button {
+    margin-top: 10px;
+    width: auto;
+    height: 20px;
+    border: solid black 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+    background-color: antiquewhite;
+    float: left;
+    margin-left: 3px;
+
+}
+
+
+.buttonBackboard {
+    clear: both;
+}
+
+
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(201, 175, 175);
+}
+
+#navigationBar {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: auto;
+    height: 50px;
+    background-color: rgb(109, 95, 95); 
+}
+
+table, tr, th, td {
+margin-top: 10px;
+padding-top: 20px;
+
+border-collapse: collapse;
+clear: both;
+padding-top: 20px;
+padding-left: 30px;
+margin-left: 70px;
+position: relative;
+top: 10px;
+
+}
+
+/* tr {
+    border-bottom: solid black 1px;
+} */
+
+hr {
+clear: both;
+    
+}

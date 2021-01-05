@@ -1,0 +1,30 @@
+#groceryInput {
+    height: 200px;
+    width: 300px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+
+#groceryList {
+    margin-top: 10px;
+    height: auto;
+    width: 300px;
+    background-color: antiquewhite;
+    text-align: left;
+}
+
+#button {
+    width: auto;
+}
+
+#container {
+    margin: auto;
+    width: 20%;
+}
+
+table, th, td ,tr {
+
+    margin: auto;
+
+}

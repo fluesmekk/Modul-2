@@ -1,0 +1,4 @@
+Kunde skal ha en nettside med forskjellige sider.
+Skal kunne spille musikk fra nettsiden.
+skal kunne vise til oppgaver gjort.
+Nettsiden skal se minimalistisk ut.
