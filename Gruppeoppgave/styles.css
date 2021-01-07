@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#app {
+    display:flex;
+    width:100%;
+    justify-content: center;
+    flex-direction:column;
+    background: rgb(60, 60, 60);
+    padding:10px;
+}
+
+.poll {
+    display:flex;  
+    flex-direction: column;
+    background:rgba(255, 255, 255, 0.309);
+    padding:10px;
+
+}
+
+.savedInfo {
+    background-color: rgba(255, 255, 255, 0.309);
+    color: black;
+}
+
+
+.alternative {
+    display:flex;
+    justify-content: center;
+    padding:10px;
+}
+
+radio {
+    display:inline-block;
+}
+
+label {
+    width:100%;
+    text-align:center;
+    display:flex;
+    justify-content: space-between;
+    transition:ease 0.2s;
+    padding:10px;
+    border-radius: 5px;
+}
+
+label:hover {
+    background-color:rgba(0, 0, 0, 0.426);
+}
+.text {
+    width:100%;
+    text-align: center;
+}

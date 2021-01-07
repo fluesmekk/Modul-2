@@ -1,4 +1,8 @@
 const model = {
+    drawnInfo: {
+        drawPollInformation: '',
+        savedPollInformation: '',
+    },
     userInfo: {
         username: 'user',
         authenticationTicket: '',
@@ -11,6 +15,7 @@ const model = {
     },
     polls : [
         {
+            id: 1,
             question: 'Hva skal vi lage til mat?',
             alternatives: [
                 'Taco',
@@ -26,6 +31,7 @@ const model = {
         },
         
         {
+            id: 2,
             question: 'Hvem har finest bil?',
             alternatives: [
                 'Lars',
@@ -41,6 +47,7 @@ const model = {
         },
 
         {
+            id: 3,
             question: 'Hva er ditt favorittkjeledyr?',
             alternatives: [
                 'Hund',
@@ -96,3 +103,6 @@ else
 show / allow access to page
 
 */
+
+let drawPollInformation = '';
+let alternatives = '';
